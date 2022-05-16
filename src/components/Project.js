@@ -6,7 +6,7 @@ function Project(props){
 
     return(
          
-        <div className="m-4 p-2 rounded space-y-10 bg-gray-900 text-gray-50 shadow-black shadow-lg">
+        <div className="m-4 p-2  rounded space-y-10 bg-gray-900 text-gray-50 shadow-black shadow-lg">
             <img className="w-full rounded" src={`./assets/${props.details.imgg}`} alt="" />
             <div>
             <h1 className="text-2xl font-bold">{props.details.heading}</h1>

@@ -5,7 +5,7 @@ import React from "react";
 function About(){
      
     return(
-        <div className="p-4  w-full text-gray-50 mb-32">
+        <div id="AboutSec" className="p-4 scroll-mt-24 w-full text-gray-50 mb-32">
             <h1 className="text-center text-3xl mb-9">ABOUT</h1>
             <p className="text-xl tracking-tighter text-justify	px-2">
             A frontend developer developer and a graduate of the University of maiduguri 

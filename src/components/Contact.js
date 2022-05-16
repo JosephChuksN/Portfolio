@@ -4,7 +4,7 @@ import React from "react";
 function Contact(){
 
     return(
-        <div className="text-gray-50 w-full p-4 mb-20">
+        <div id="ContactSec" className="text-gray-50 scroll-mt-24 w-full p-4 mb-20">
             <h1 className="text-center mb-2 text-3xl text-gray-50 mb-7">CONTACT ME</h1>
             <p className="text-xl p-2 mb-7 w-full">Interested in working together? Reach out to me through the contact form below. Feel 
             free to reach out to me through my social media handles or send a mail to :

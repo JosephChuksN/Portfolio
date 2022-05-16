@@ -37,13 +37,13 @@ function App() {
       <About />
          
          
-      <section className='mt-9 mb-32'>
+      <section id='SkillSec' className='mt-9 mb-32 scroll-mt-24'>
       <h1 className="text-center mb-9 text-3xl text-gray-50">SKILLS</h1>
       <div className=' grid grid-cols-2 gap-4 text-center text-gray-50 p-4 w-full'>
       {skillSet}
       </div>
       </section >
-      <section className='mt-9 mb-32 space-y-10'>
+      <section  id="ProjectSec" className='mt-9 mb-32 scroll-mt-24 space-y-10'>
       <h1 className="text-center mb-7 text-3xl text-gray-50">PROJECTS</h1>
         {projects}
       </section>
