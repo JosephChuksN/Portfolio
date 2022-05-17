@@ -10,7 +10,7 @@ function Project(props){
             <img className="w-full rounded" src={`./assets/${props.details.imgg}`} alt="" />
             <div>
             <h1 className="text-2xl font-bold">{props.details.heading}</h1>
-            <p className="text-xl">{props.details.writeup}</p>
+            <p className="">{props.details.writeup}</p>
             <div className="grid grid-cols-2 gap-4 text-center p-3 my-3 ">
             <a className="p-1.5 rounded border border-gray-50" href=" ">SOURCE CODE</a>
             <a className="p-1.5 rounded border border-gray-50" href=" ">DEMO</a>
