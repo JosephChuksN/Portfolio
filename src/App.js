@@ -23,6 +23,7 @@ function App() {
  const projects = ProjectData.map(info =>{
   return(
     <Project
+    key={info.id}
     details={info}
  
     />
@@ -37,15 +38,18 @@ function App() {
       <About />
          
          
-      <section id='SkillSec' className='mt-9 mb-32 scroll-mt-24'>
+      <section id='SkillSec' className='mt-9 mb-32 scroll-mt-24 lg:w-1/2 lg:mx-auto'>
       <h1 className="text-center mb-9 text-3xl text-gray-50">SKILLS</h1>
-      <div className=' grid grid-cols-2 gap-4 text-center text-gray-50 p-4 w-full'>
+      <div className=' grid grid-cols-2 gap-4 text-center text-gray-50 p-4 w-full lg:p-10'>
       {skillSet}
       </div>
       </section >
-      <section  id="ProjectSec" className='mt-9 mb-32 scroll-mt-24 space-y-10'>
+      <section  id="ProjectSec" className='mt-9 mb-32 scroll-mt-24  '>
       <h1 className="text-center mb-7 text-3xl text-gray-50">PROJECTS</h1>
-        {projects}
+      
+      {projects}
+      
+       
       </section>
       <Contact />
       <Footer />
