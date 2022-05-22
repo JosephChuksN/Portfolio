@@ -15,8 +15,8 @@ function Contact(){
              <form className="grid gap-5 ">
                  <input className="bg-gray-800 p-2 rounded outline-none" type="type" placeholder="Fullname"  />
                  <input  className="bg-gray-800 p-2 rounded outline-none" type="email" placeholder="email" />
-                 <textarea  className="bg-gray-800 p-2 rounded ">Your message</textarea>
-                 <button className="p-2 bg-[#264de4] w-full mx-auto rounded">Submit</button>
+                 <textarea placeholder="Your message" className="bg-gray-800 p-2 rounded "></textarea>
+                 <button onClick={(e) => {e.preventDefault()}} className="p-2 bg-[#264de4] w-full mx-auto rounded">Submit</button>
              </form>
          </div>
         </div>
