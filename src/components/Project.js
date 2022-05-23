@@ -7,7 +7,7 @@ function Project(props){
 
     return(
          
-        <div className="lg:mx-auto lg:grid lg:grid-cols-2 lg:gap-10 lg:w-3/4 m-4 p-2  rounded lg:space-y-10 bg-gray-900 text-gray-50 lg:shadow shadow-black shadow-lg">
+        <div className="md:w-3/4 md:mx-auto lg:mx-auto lg:grid lg:grid-cols-2 lg:gap-10 lg:w-3/4 m-4 p-2  rounded lg:space-y-10 bg-gray-900 text-gray-50 lg:shadow shadow-black shadow-lg">
             <img src={props.details.imgg} alt="project-img"  className="w-full rounded lg" />
             <div className="lg:left-5 lg:shadow-black lg:shadow-lg lg:rounded lg:space-y-8 lg:p-4">
             <h1 className="text-2xl font-bold">{props.details.heading}</h1>

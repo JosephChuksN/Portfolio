@@ -38,9 +38,9 @@ function App() {
       <About />
          
          
-      <section id='SkillSec' className='mt-9 mb-32 scroll-mt-24 lg:w-1/2 lg:mx-auto'>
+      <section id='SkillSec' className='mt-9 mb-32 scroll-mt-24 md:w-1/2 md:mx-auto'>
       <h1 className="text-center mb-9 text-3xl text-gray-50">SKILLS</h1>
-      <div className=' grid grid-cols-2 gap-4 text-center text-gray-50 p-4 w-full lg:p-10'>
+      <div className=' grid grid-cols-2 gap-4 text-center text-gray-50 p-4 w-full md:p-10'>
       {skillSet}
       </div>
       </section >
